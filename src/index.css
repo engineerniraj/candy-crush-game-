@@ -1,0 +1,90 @@
+
+body{ background: url("https://i.pinimg.com/originals/e3/d6/49/e3d649d3aea21c5ab24adf9415611e66.gif") no-repeat center center fixed;
+ margin-top: 0%;
+  font-family: Arial, Helvetica, sans-serif; 
+  color: white;
+  text-align: center;
+  background-size: cover;
+  overflow-y:hidden;
+}
+audio::-webkit-media-controls-panel {
+  background-color: #56AEFF;
+}
+
+audio::-webkit-media-controls-timeline {
+  background-color: #B1D4E0;
+  border-radius: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.name{
+  color:black ;
+  text-align: center;
+  text-shadow: 2px 2px white;
+  background-color: lightblue;
+ border: 5px solid rgb(8, 201, 244);
+  font-size: 30px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 35px;
+  padding-left:35px;
+  margin-top: 30px;
+  margin-left: -45px;
+  display: inline-block;
+  border-radius: 30px;
+
+  -webkit-box-shadow: 7px 15px 13px 8px rgba(0,0,0,0.45); 
+ box-shadow: 7px 15px 13px 8px rgba(0,0,0,0.45);
+} 
+
+audio{
+  margin-right: 20px;
+}
+.card{
+  display: flex;
+  padding : 30px;
+  margin-left: 30%;
+ 
+}
+
+.game{
+  width:  480px;
+  height: 480px;
+
+  display: flex;
+  flex-wrap: wrap;
+ background-color: lightblue;
+ border: 5px solid slategray;
+ border-radius: 10px;
+ padding: 10px;
+ margin-bottom: 25px;
+
+ -webkit-box-shadow: 7px 15px 13px 8px rgba(0,0,0,0.45); 
+ box-shadow: 7px 15px 13px 8px rgba(0,0,0,0.45);
+}
+
+.game img{
+  width: 60px;
+  height: 60px;
+  
+}
+
+.score-board{
+  margin-left: 60px;
+  
+  color:black ;
+  text-shadow: 2px 2px white;
+  background-color: lightblue;
+ border: 5px solid whitesmoke;
+ background: yellowgreen;
+  font-weight: bolder;
+  font-family: sans-serif;
+  margin-bottom: 80%;
+ padding: 9px;
+ border-radius: 30%;
+
+ -webkit-box-shadow: 7px 15px 13px 8px rgba(0,0,0,0.45); 
+ box-shadow: 7px 15px 13px 8px rgba(0,0,0,0.45);
+}
+
